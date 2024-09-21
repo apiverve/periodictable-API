@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/periodictable",
+  "version": "1.1.5",
+  "description": "Periodic Table is a simple tool for getting information about chemical elements. It returns information such as the atomic number, symbol, and more based on the element provided.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/periodictable-API.git"
+  },
+  "keywords": [
+    "periodic table","periodic table api","periodic table tool","periodic table software","periodic table service"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/periodictable-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/api/periodictable?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.7.7"
+  }
+}
